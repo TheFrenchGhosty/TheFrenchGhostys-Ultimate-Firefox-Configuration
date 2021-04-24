@@ -1,0 +1,1 @@
+# TheFrenchGhostys-Ultimate-Firefox-Configuration
