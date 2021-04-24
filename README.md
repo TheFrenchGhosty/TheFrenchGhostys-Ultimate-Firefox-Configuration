@@ -1,4 +1,4 @@
-<h1 align="center">TheFrenchGhosty's Firefox Ultimate Configuration</h1>
+<h1 align="center">TheFrenchGhosty's Ultimate Firefox Configuration</h1>
 
 <p align="center">The ultimate Firefox configuration that is acceptable Privacy-Wise while being as much feature-packed as possible.</p>
 
@@ -7,8 +7,10 @@
 - The best Firefox configuration that break as little websites as possible
 - No ads, no cookies messages not even the "forced" one
 - Download audio only content, in the best possible quality
-- Tons of new features thanks to amazing addons
-- Only open source addons, nothing closed source, no spyware
+- Tons of new features thanks to amazing open source addons
+- Only open source addons
+- Nothing closed source
+- Free of spyware
 - No Contributor License Agreement
 - No Code of Conduct
 
@@ -97,9 +99,9 @@ Un-tick everything under "Deceptive Content and Dangerous Software Protection"
 
 ---
 
-## UI
-
 ### Bookmarks
+
+In the browser task bar:
 
 Bookmarks - View Bookmarks Toolbar
 
@@ -267,3 +269,9 @@ file://
 moz-extension://
 
 Right click SingleFileZ in the taskbar: Auto-save - Auto-save all tabs
+
+## Finish line
+
+You now have the best possible Firefox configuration.
+
+If you think something more should be added, like an open source add-ons, feel free to open an issue.
