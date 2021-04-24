@@ -28,7 +28,7 @@ Monero (XMR): [44yL1VNsRmvW3khxHAQvzr9mfyfkMLFmS5xo3EehkQRgcBSgAUcoqf4Cj9mTyCwEP
 
 ## Prerequisites
 
-- Firefox (or/and Firefox Developer Edition)
+- Firefox or/and Firefox Developer Edition or/and other Firefox version/fork (untested)
 - Around 30 minutes to do do configuration
 
 ---
@@ -132,8 +132,7 @@ Convenient settings
 
 ### Chameleon: https://addons.mozilla.org/firefox/addon/chameleon-ext/
 
-Home
-Dark - Notification Off
+Home: Dark - Notification Off
 
 Profile: "Random Profile (Desktop)" on desktop - "Random Profile (Mobile)" on mobile
 
@@ -195,9 +194,11 @@ Tick every list (except the 2 "Fanboy's" lists, that break too much stuff)
 ### (Optional) uMatrix: https://addons.mozilla.org/firefox/addon/umatrix/
 
 Popup:
+
 Click *
 
 All css/image/frame without any filter - scripts disabled
+
 1st-party frame without any filter
 
 ---
@@ -231,6 +232,7 @@ Add your instance
 Go to new tab - Keep changes
 
 Settings - Show a new photo - Every 5 minutes
+
 Remove Greeting
 
 ### Violentmoney: https://addons.mozilla.org/firefox/addon/violentmonkey/
@@ -265,8 +267,10 @@ maximum size (MB): 50MB
 
 Auto-settings rules:
 
+```
 file://
 moz-extension://
+```
 
 Right click SingleFileZ in the taskbar: Auto-save - Auto-save all tabs
 
