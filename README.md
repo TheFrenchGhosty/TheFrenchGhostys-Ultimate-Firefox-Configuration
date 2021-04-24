@@ -124,11 +124,11 @@ Remove the Firefox Accounts icon from the toolbar: identity.fxaccounts.toolbar.e
 
 ## Privacy-focused add-ons (When asked, allow in private mode)
 
-### [CanvasBlocker](https://addons.mozilla.org/firefox/addon/canvasblocker/)
+### CanvasBlocker: https://addons.mozilla.org/firefox/addon/canvasblocker/
 
 Convenient settings
 
-### [Chameleon](https://addons.mozilla.org/firefox/addon/chameleon-ext/)
+### Chameleon: https://addons.mozilla.org/firefox/addon/chameleon-ext/
 
 Home
 Dark - Notification Off
@@ -137,9 +137,9 @@ Profile: "Random Profile (Desktop)" on desktop - "Random Profile (Mobile)" on mo
 
 Change Periodically - Every 30 minutes
 
-### [ClearURLs](https://addons.mozilla.org/firefox/addon/clearurls/)
+### ClearURLs: https://addons.mozilla.org/firefox/addon/clearurls/
 
-### [Cookie Autodelete](https://addons.mozilla.org/firefox/addon/cookie-autodelete/)
+### Cookie Autodelete: https://addons.mozilla.org/firefox/addon/cookie-autodelete/
 
 "Auto-clean enabled" = Green
 
@@ -147,13 +147,13 @@ Change Periodically - Every 30 minutes
 
 Whitelist the websites you want to stay connected to.
 
-### [LocalCDN](https://addons.mozilla.org/firefox/addon/localcdn-fork-of-decentraleyes/)
+### LocalCDN: https://addons.mozilla.org/firefox/addon/localcdn-fork-of-decentraleyes/
 
-### [HTTPS Everywhere](https://addons.mozilla.org/firefox/addon/https-everywhere/)
+### HTTPS Everywhere: https://addons.mozilla.org/firefox/addon/https-everywhere/
 
 "Encrypt All Sites Eligible" - ON
 
-### [Privacy Redirect](https://addons.mozilla.org/firefox/addon/privacy-redirect/)
+### Privacy Redirect: https://addons.mozilla.org/firefox/addon/privacy-redirect/
 
 More options:
 
@@ -161,9 +161,9 @@ Reddit Instance: https://teddit.net
 
 Theme: Dark
 
-### [Redirect AMP to HTML](https://addons.mozilla.org/firefox/addon/amp2html/)
+### Redirect AMP to HTML: https://addons.mozilla.org/firefox/addon/amp2html/
 
-### [Skip Redirect](https://addons.mozilla.org/firefox/addon/skip-redirect/)
+### Skip Redirect: https://addons.mozilla.org/firefox/addon/skip-redirect/
 
 No-skip-urls-list:
 
@@ -176,7 +176,7 @@ Add:
 
 Notification - Un-tick "Enable popup"
 
-### [uBlock Origin](https://addons.mozilla.org/firefox/addon/ublock-origin/)
+### uBlock Origin: https://addons.mozilla.org/firefox/addon/ublock-origin/
 
 Settings - Privacy
 
@@ -190,7 +190,7 @@ Tick every list (except the 2 "Fanboy's" lists, that break too much stuff)
 
 "Apply changes" - "Update now"
 
-### (Optional) [uMatrix](https://addons.mozilla.org/firefox/addon/umatrix/)
+### (Optional) uMatrix: https://addons.mozilla.org/firefox/addon/umatrix/
 
 Popup:
 Click *
@@ -202,44 +202,44 @@ All css/image/frame without any filter - scripts disabled
 
 ### Feature-packed add-ons
 
-### [Bookmark Dupes](https://addons.mozilla.org/firefox/addon/bookmark-dupes/)
+### Bookmark Dupes: https://addons.mozilla.org/firefox/addon/bookmark-dupes/
 
-### [Cookie Quick Manager](https://addons.mozilla.org/firefox/addon/cookie-quick-manager/)
+### Cookie Quick Manager: https://addons.mozilla.org/firefox/addon/cookie-quick-manager/
 
-### [Unwanted Twitch](https://addons.mozilla.org/firefox/addon/unwanted-twitch/)
+### Unwanted Twitch: https://addons.mozilla.org/firefox/addon/unwanted-twitch/
 
-### [Github Repository Size](https://addons.mozilla.org/firefox/addon/github-repo-size/)
+### Github Repository Size: https://addons.mozilla.org/firefox/addon/github-repo-size/
 
-### [Dark Reader](https://addons.mozilla.org/firefox/addon/darkreader/)
+### Dark Reader: https://addons.mozilla.org/firefox/addon/darkreader/
 
-### [Universal Bypass](https://addons.mozilla.org/firefox/addon/universal-bypass/)
+### Universal Bypass: https://addons.mozilla.org/firefox/addon/universal-bypass/
 
 Options: Enable Crowd Bypass
 
-### [I don't care about cookies](https://addons.mozilla.org/firefox/addon/i-dont-care-about-cookies/)
+### I don't care about cookies: https://addons.mozilla.org/firefox/addon/i-dont-care-about-cookies/
 
-### [SponsorBlock](https://addons.mozilla.org/firefox/addon/sponsorblock/)
+### SponsorBlock: https://addons.mozilla.org/firefox/addon/sponsorblock/
 
 Enable support for Invidious
 
 Add your instance
 
-### [Tabliss](https://addons.mozilla.org/firefox/addon/tabliss/)
+### Tabliss: https://addons.mozilla.org/firefox/addon/tabliss/
 
 Go to new tab - Keep changes
 
 Settings - Show a new photo - Every 5 minutes
 Remove Greeting
 
-### [Violentmoney](https://addons.mozilla.org/firefox/addon/violentmonkey/)
+### Violentmoney: https://addons.mozilla.org/firefox/addon/violentmonkey/
 
-### [Stylus](https://addons.mozilla.org/firefox/addon/styl-us/)
+### Stylus: https://addons.mozilla.org/firefox/addon/styl-us/
 
 Install https://github.com/DarkThemeHub/GithubDarkTheme - Disable Dark Reader on Github
 
 Install https://gitlab.com/vednoc/dark-gitlab - Disable Dark Reader on Gitlab
 
-### [SingleFileZ](https://addons.mozilla.org/firefox/addon/singlefilez/) !DON'T ALLOW IN PRIVATE WINDOW!
+### SingleFileZ: https://addons.mozilla.org/firefox/addon/singlefilez/ (!DON'T ALLOW IN PRIVATE WINDOW!)
 
 File name:
 
@@ -257,7 +257,7 @@ auto-save waiting delay after page load (s): 10 sec
 
 Misc.
 
-Tick "set maximum size for embedded ressources"
+Tick "set maximum size for embedded resources"
 
 maximum size (MB): 50MB
 
