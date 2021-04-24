@@ -6,7 +6,6 @@
 
 - The best Firefox configuration that break as little websites as possible
 - No ads, no cookies messages not even the "forced" one
-- Download audio only content, in the best possible quality
 - Tons of new features thanks to amazing open source addons
 - Only open source addons
 - Nothing closed source
