@@ -112,7 +112,6 @@ Manage bookmarks - Remove every bookmarks
 
 ## about:config
 
-
 Follow everything from: https://privacytools.io/browsers/#about_config
 
 Disable pocket: extensions.pocket.enabled = false
@@ -169,7 +168,7 @@ No-skip-urls-list:
 
 Add:
 
-```
+```text
 *://*.nitter.*/*
 *://*.archive.org/*
 ```
@@ -234,7 +233,7 @@ Settings - Show a new photo - Every 5 minutes
 
 Remove Greeting
 
-### Violentmoney: https://addons.mozilla.org/firefox/addon/violentmonkey/
+### Violentmonkey: https://addons.mozilla.org/firefox/addon/violentmonkey/
 
 ### Stylus: https://addons.mozilla.org/firefox/addon/styl-us/
 
@@ -266,7 +265,7 @@ maximum size (MB): 50MB
 
 Auto-settings rules:
 
-```
+```text
 file://
 moz-extension://
 ```
