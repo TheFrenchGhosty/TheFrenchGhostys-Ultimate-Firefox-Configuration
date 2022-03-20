@@ -6,10 +6,9 @@
 
 - The best Firefox configuration that break as little websites as possible
 - No ads, no cookies messages not even the "forced" one
-- Tons of new features thanks to amazing open source addons
-- Only open source addons
-- Nothing closed source
-- Free of spyware
+- Tons of new features thanks to amazing add-ons
+- Only Free and Open Source add-ons, absolutely nothing proprietary is required
+- 100% Free of spyware
 - No Contributor License Agreement
 - No Code of Conduct
 
@@ -19,16 +18,27 @@
 
 Liberapay: https://liberapay.com/TheFrenchGhosty
 
-Bitcoin (BTC): [bc1qjpal63yc94jw03pnhu3vyfqv7djxsr0lmwe5jk](bitcoin:bc1qjpal63yc94jw03pnhu3vyfqv7djxsr0lmwe5jk)
+Ko-fi: https://ko-fi.com/TheFrenchGhosty
 
-Monero (XMR): [44yL1VNsRmvW3khxHAQvzr9mfyfkMLFmS5xo3EehkQRgcBSgAUcoqf4Cj9mTyCwEPm1Sif1Pqdbw5UoFCvNLNp6CET277J6](monero:44yL1VNsRmvW3khxHAQvzr9mfyfkMLFmS5xo3EehkQRgcBSgAUcoqf4Cj9mTyCwEPm1Sif1Pqdbw5UoFCvNLNp6CET277J6)
+Patreon: https://www.patreon.com/TheFrenchGhosty
+
+Bitcoin (BTC): bc1qjpal63yc94jw03pnhu3vyfqv7djxsr0lmwe5jk
+
+Monero (XMR): 44yL1VNsRmvW3khxHAQvzr9mfyfkMLFmS5xo3EehkQRgcBSgAUcoqf4Cj9mTyCwEPm1Sif1Pqdbw5UoFCvNLNp6CET277J6
+
+Ethereum (ETH): 0xD11eA4a29775b21DcAf707408E6771373D1d5af9
+
+Litecoin (LTC): ltc1qv4f7q970ajnjzuewj0wet5zed7z8s2qm44u8d7
+
+Wownero (WOW): WW32Bch4nqE9ttJvMwXEiFCmPMwQQrBfAhg8vSRGNX95fV4kEVLZRjqBguQafPMqxxVXYqCqnyNdrFg5G7yrbEur2GcnpKNJp
+
+Bitcoin Cash (BCH): qqypylwtyc9fe649tjn32mhrzz7d28jskcxg5rlnv2
 
 ---
 
 ## Prerequisites
 
-- Firefox or/and Firefox Developer Edition or/and other Firefox version/fork (untested)
-- Around 30 minutes to do do configuration
+- [LibreWolf](https://librewolf.net/)
 
 ---
 
@@ -38,88 +48,43 @@ Monero (XMR): [44yL1VNsRmvW3khxHAQvzr9mfyfkMLFmS5xo3EehkQRgcBSgAUcoqf4Cj9mTyCwEP
 
 ## about:preferences
 
-### General
-
-Un-tick "Browsing - Recommend extensions as you browse"
-
-Un-tick "Browsing - Recommend features as you browse"
-
-### Home
+#### about:preferences#home
 
 New Windows and Tabs
 
 "Homepage and new windows" - "Custom URLs..."
 
-Set the SearX instance you want to use.
+Set the [SearX](https://searx.space/) instance you want to use.
 
-Un-tick "Firefox Home Content - Top Sites"
+#### about:preferences#search
 
-Un-tick "Firefox Home Content - Highlights"
+Go to the SearX instance you want to use
 
-Un-tick "Firefox Home Content - Snippets"
+Right click the search bar - Click "Add [Instance name]"
 
-### Search
-
-Go to the SearX instance you want to use.
-
-Add it as search engine by following the steps: https://support.mozilla.org/en-US/kb/add-or-remove-search-engine-firefox
-
-Go back to Preference / Search
+Go back to `about:preferences#search`
 
 "Search Suggestions" tick all options
 
-"One-Click Search Engine" - Remove everything except Searx
+"One-Click Search Engine" - Remove everything except the SearX instance you added
 
-### Privacy & Security
-
-"Enhanced Tracking Protection"
-
-Set it to "Custom"
-
-"Cookies" - "All third-party cookies"
-
-"Tracking content" - "In all windows"
-
-"Send Do not track" - Always
-
-Un-tick "Login and passwords" - "Ask to save logins and passwords for websites"
+#### about:preferences#privacy
 
 "History"
 
 "Firefox will" "Use custom settings for history"
 
-"Clear history when Firefox closes" - Tick everything except "Cookies" "Active Logins" "Site Preferences"
-
-Un-tick everything under "Firefox Data Collection"
-
-"Security"
-
-Un-tick everything under "Deceptive Content and Dangerous Software Protection"
+"Clear history when Firefox closes" - Tick everything except "Cookies" "Active Logins" "Site Settings" "Offline website data"
 
 ---
 
-### Bookmarks
+## Bookmarks
 
-In the browser task bar:
+In the hamburger menu:
 
-Bookmarks - View Bookmarks Toolbar
+Bookmarks - Show Bookmarks Toolbar
 
 Right click the "Import bookmarks" - Remove from toolbar
-
-Manage bookmarks - Remove every bookmarks
-
----
-
-## about:config
-
-
-Follow everything from: https://privacytools.io/browsers/#about_config
-
-Disable pocket: extensions.pocket.enabled = false
-
-Disable Firefox Accounts: identity.fxaccounts.enabled = false
-
-Remove the Firefox Accounts icon from the toolbar: identity.fxaccounts.toolbar.enabled = false
 
 ---
 
@@ -131,7 +96,7 @@ Convenient settings
 
 ### Chameleon: https://addons.mozilla.org/firefox/addon/chameleon-ext/
 
-Home: Dark - Notification Off
+Home: Dark
 
 Profile: "Random Profile (Desktop)" on desktop - "Random Profile (Mobile)" on mobile
 
@@ -147,32 +112,19 @@ Change Periodically - Every 30 minutes
 
 Whitelist the websites you want to stay connected to.
 
-### LocalCDN: https://addons.mozilla.org/firefox/addon/localcdn-fork-of-decentraleyes/
-
 ### HTTPS Everywhere: https://addons.mozilla.org/firefox/addon/https-everywhere/
 
 "Encrypt All Sites Eligible" - ON
 
-### Privacy Redirect: https://addons.mozilla.org/firefox/addon/privacy-redirect/
+### I don't care about cookies: https://addons.mozilla.org/firefox/addon/i-dont-care-about-cookies/
 
-More options:
+### LocalCDN: https://addons.mozilla.org/firefox/addon/localcdn-fork-of-decentraleyes/
 
-Reddit Instance: https://teddit.net
+### LibRedirect: https://addons.mozilla.org/firefox/addon/libredirect/
 
-Theme: Dark
+Configure it how you prefer
 
 ### Redirect AMP to HTML: https://addons.mozilla.org/firefox/addon/amp2html/
-
-### Skip Redirect: https://addons.mozilla.org/firefox/addon/skip-redirect/
-
-No-skip-urls-list:
-
-Add:
-
-```
-*://*.nitter.*/*
-*://*.archive.org/*
-```
 
 Notification - Un-tick "Enable popup"
 
@@ -180,7 +132,9 @@ Notification - Un-tick "Enable popup"
 
 Settings - Privacy
 
-Tick "Prevent WebRTC from leaking local IP addresses"
+Appearance:
+
+Theme: Dark
 
 Filter lists
 
@@ -206,25 +160,23 @@ All css/image/frame without any filter - scripts disabled
 
 ### Bookmark Dupes: https://addons.mozilla.org/firefox/addon/bookmark-dupes/
 
+### Bypass Paywalls Clean: https://addons.mozilla.org/firefox/addon/bypass-paywalls-clean/
+
 ### Cookie Quick Manager: https://addons.mozilla.org/firefox/addon/cookie-quick-manager/
-
-### Unwanted Twitch: https://addons.mozilla.org/firefox/addon/unwanted-twitch/
-
-### Github Repository Size: https://addons.mozilla.org/firefox/addon/github-repo-size/
 
 ### Dark Reader: https://addons.mozilla.org/firefox/addon/darkreader/
 
-### Universal Bypass: https://addons.mozilla.org/firefox/addon/universal-bypass/
+### Github Repository Size: https://addons.mozilla.org/firefox/addon/github-repo-size/
 
-Options: Enable Crowd Bypass
-
-### I don't care about cookies: https://addons.mozilla.org/firefox/addon/i-dont-care-about-cookies/
+### GitHub Gloc: https://addons.mozilla.org/firefox/addon/gloc/
 
 ### SponsorBlock: https://addons.mozilla.org/firefox/addon/sponsorblock/
 
-Enable support for Invidious
+Miscellaneous: Support 3rd Party YouTube-Sites
 
-Add your instance
+Add your instance to "Add 3rd-Party Client Instance"
+
+### Stylus: https://addons.mozilla.org/firefox/addon/styl-us/
 
 ### Tabliss: https://addons.mozilla.org/firefox/addon/tabliss/
 
@@ -234,15 +186,17 @@ Settings - Show a new photo - Every 5 minutes
 
 Remove Greeting
 
+### FastForward: https://addons.mozilla.org/firefox/addon/fastforwardteam/
+
+Options: Enable Crowd Bypass
+
+### Unwanted Twitch: https://addons.mozilla.org/firefox/addon/unwanted-twitch/
+
 ### Violentmoney: https://addons.mozilla.org/firefox/addon/violentmonkey/
 
-### Stylus: https://addons.mozilla.org/firefox/addon/styl-us/
 
-Install https://github.com/DarkThemeHub/GithubDarkTheme - Disable Dark Reader on Github
 
-Install https://gitlab.com/vednoc/dark-gitlab - Disable Dark Reader on Gitlab
-
-### SingleFileZ: https://addons.mozilla.org/firefox/addon/singlefilez/ (!DON'T ALLOW IN PRIVATE WINDOW!)
+### (Optional) SingleFileZ: https://addons.mozilla.org/firefox/addon/singlefilez/ (!DON'T ALLOW IN PRIVATE WINDOW!)
 
 File name:
 
