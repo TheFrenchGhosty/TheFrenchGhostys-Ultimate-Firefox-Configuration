@@ -192,9 +192,7 @@ Options: Enable Crowd Bypass
 
 ### Unwanted Twitch: https://addons.mozilla.org/firefox/addon/unwanted-twitch/
 
-### Violentmoney: https://addons.mozilla.org/firefox/addon/violentmonkey/
-
-
+### Violentmonkey: https://addons.mozilla.org/firefox/addon/violentmonkey/
 
 ### (Optional) SingleFileZ: https://addons.mozilla.org/firefox/addon/singlefilez/ (!DON'T ALLOW IN PRIVATE WINDOW!)
 
