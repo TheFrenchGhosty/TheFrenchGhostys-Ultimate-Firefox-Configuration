@@ -70,6 +70,8 @@ Go back to `about:preferences#search`
 
 #### about:preferences#privacy
 
+Under "Cookies and Site Data" untick "Delete cookies and site data when LibreWolf is closed"
+
 "History"
 
 "Firefox will" "Use custom settings for history"
