@@ -160,11 +160,15 @@ All css/image/frame without any filter - scripts disabled
 
 ### Feature-packed add-ons
 
+### Augmented Steam: https://addons.mozilla.org/firefox/addon/augmented-steam/
+
 ### Bookmark Dupes: https://addons.mozilla.org/firefox/addon/bookmark-dupes/
 
 ### Bypass Paywalls Clean: https://addons.mozilla.org/firefox/addon/bypass-paywalls-clean/
 
 ### Cookie Quick Manager: https://addons.mozilla.org/firefox/addon/cookie-quick-manager/
+
+### cookies.txt https://addons.mozilla.org/firefox/addon/cookies-txt/
 
 ### Dark Reader: https://addons.mozilla.org/firefox/addon/darkreader/
 
