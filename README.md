@@ -114,8 +114,6 @@ Whitelist the websites you want to stay connected to.
 
 "Encrypt All Sites Eligible" - ON
 
-### I don't care about cookies: https://addons.mozilla.org/firefox/addon/i-dont-care-about-cookies/
-
 ### LocalCDN: https://addons.mozilla.org/firefox/addon/localcdn-fork-of-decentraleyes/
 
 ### LibRedirect: https://addons.mozilla.org/firefox/addon/libredirect/
