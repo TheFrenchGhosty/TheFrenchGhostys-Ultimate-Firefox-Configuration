@@ -76,6 +76,14 @@ Under "Cookies and Site Data" untick "Delete cookies and site data when LibreWol
 
 ---
 
+## about:config
+
+Set `privacy.resistFingerprinting` to `false`: it breaks to much stuff, and the browser add-ons do most of what it does.
+
+Set `browser.tabs.closeWindowWithLastTab` to `false`: doesn't close the browser when the last tab is closed
+
+---
+
 ## Bookmarks
 
 In the hamburger menu:
