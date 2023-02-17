@@ -166,7 +166,7 @@ All css/image/frame without any filter - scripts disabled
 
 ### Bookmark Dupes: https://addons.mozilla.org/firefox/addon/bookmark-dupes/
 
-### Bypass Paywalls Clean: https://addons.mozilla.org/firefox/addon/bypass-paywalls-clean/
+### Bypass Paywalls Clean: https://gitlab.com/magnolia1234/bypass-paywalls-firefox-clean#installation
 
 ### Cookie Quick Manager: https://addons.mozilla.org/firefox/addon/cookie-quick-manager/
 
