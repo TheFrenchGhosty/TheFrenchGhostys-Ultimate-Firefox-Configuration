@@ -122,6 +122,8 @@ Whitelist the websites you want to stay connected to.
 
 "Encrypt All Sites Eligible" - ON
 
+### I still don't care about cookies: https://addons.mozilla.org/firefox/addon/istilldontcareaboutcookies/
+
 ### LocalCDN: https://addons.mozilla.org/firefox/addon/localcdn-fork-of-decentraleyes/
 
 ### LibRedirect: https://addons.mozilla.org/firefox/addon/libredirect/
@@ -173,6 +175,8 @@ All css/image/frame without any filter - scripts disabled
 ### cookies.txt https://addons.mozilla.org/firefox/addon/cookies-txt/
 
 ### Dark Reader: https://addons.mozilla.org/firefox/addon/darkreader/
+
+### Get RSS Feed URL: https://addons.mozilla.org/firefox/addon/get-rss-feed-url/
 
 ### Github Repository Size: https://addons.mozilla.org/firefox/addon/github-repo-size/
 
