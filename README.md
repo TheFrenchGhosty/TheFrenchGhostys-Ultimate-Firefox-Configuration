@@ -82,6 +82,8 @@ Set `privacy.resistFingerprinting` to `false`: it breaks to much stuff, and the 
 
 Set `browser.tabs.closeWindowWithLastTab` to `false`: doesn't close the browser when the last tab is closed
 
+Set `security.OCSP.require` to `false`: the OCSP server are down almost daily, and OCSP is basically pointless
+
 ---
 
 ## Bookmarks
