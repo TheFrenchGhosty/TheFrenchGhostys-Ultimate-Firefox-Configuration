@@ -124,6 +124,10 @@ Whitelist the websites you want to stay connected to.
 
 "Encrypt All Sites Eligible" - ON
 
+### Indie Wiki Buddy: https://addons.mozilla.org/firefox/addon/indie-wiki-buddy/
+
+Enable BreezeWiki, choose your preferred instance
+
 ### I still don't care about cookies: https://addons.mozilla.org/firefox/addon/istilldontcareaboutcookies/
 
 ### LocalCDN: https://addons.mozilla.org/firefox/addon/localcdn-fork-of-decentraleyes/
@@ -168,13 +172,15 @@ All css/image/frame without any filter - scripts disabled
 
 ### Augmented Steam: https://addons.mozilla.org/firefox/addon/augmented-steam/
 
+### behind!: https://addons.mozilla.org/firefox/addon/behind/
+
 ### Bookmark Dupes: https://addons.mozilla.org/firefox/addon/bookmark-dupes/
 
 ### Bypass Paywalls Clean: https://gitlab.com/magnolia1234/bypass-paywalls-firefox-clean#installation
 
 ### Cookie Quick Manager: https://addons.mozilla.org/firefox/addon/cookie-quick-manager/
 
-### cookies.txt https://addons.mozilla.org/firefox/addon/cookies-txt/
+### cookies.txt: https://addons.mozilla.org/firefox/addon/cookies-txt/
 
 ### Dark Reader: https://addons.mozilla.org/firefox/addon/darkreader/
 
