@@ -134,9 +134,7 @@ Notification - Un-tick "Enable popup"
 
 ### uBlock Origin: https://addons.mozilla.org/firefox/addon/ublock-origin/
 
-Settings - Privacy
-
-Appearance:
+Settings / Appearance:
 
 Theme: Dark
 
