@@ -14,6 +14,16 @@
 
 ---
 
+## About the slow to non-existent updates:
+
+As you can see, this project doesn't get a lot of updates, the reason is simple: this project is complete.
+
+I've been using it for YEARS since it was created, and it's just been doing what I want since.
+
+I rarely have to change things and when I do, the change will be added to this guide.
+
+---
+
 ## Donate:
 
 - Liberapay: https://liberapay.com/TheFrenchGhosty
