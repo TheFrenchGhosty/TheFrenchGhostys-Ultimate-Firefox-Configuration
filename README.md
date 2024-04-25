@@ -186,8 +186,6 @@ All css/image/frame without any filter - scripts disabled
 
 ### Get RSS Feed URL: https://addons.mozilla.org/firefox/addon/get-rss-feed-url/
 
-### Github Repository Size: https://addons.mozilla.org/firefox/addon/github-repo-size/
-
 ### GitHub Gloc: https://addons.mozilla.org/firefox/addon/gloc/
 
 ### SponsorBlock: https://addons.mozilla.org/firefox/addon/sponsorblock/
