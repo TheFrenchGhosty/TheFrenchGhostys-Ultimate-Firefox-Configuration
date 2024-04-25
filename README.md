@@ -46,31 +46,27 @@
 
 #### about:preferences#home
 
-New Windows and Tabs
+Under "New Windows and Tabs" / "Homepage and new windows" - "Custom URLs..."
 
-"Homepage and new windows" - "Custom URLs..."
-
-Set the [SearX](https://searx.space/) instance you want to use.
+Set the [SearXNG](https://searx.space/) instance you want to use.
 
 #### about:preferences#search
 
-Go to the SearX instance you want to use
+Go to the SearXNG instance you want to use
 
 Right click the search bar - Click "Add [Instance name]"
 
 Go back to `about:preferences#search`
 
-"Search Suggestions" tick all options
+Under "Search Suggestions": Tick all options
 
-"One-Click Search Engine" - Remove everything except the SearX instance you added
+Under "Search Shortcuts": Remove everything except the SearX instance you added (and the stuff you can't remove)
 
 #### about:preferences#privacy
 
 Under "Cookies and Site Data" untick "Delete cookies and site data when LibreWolf is closed"
 
-"History"
-
-"Firefox will" "Use custom settings for history"
+Under "History"
 
 "Clear history when Firefox closes" - Tick everything except "Cookies" "Active Logins" "Site Settings" "Offline website data"
 
@@ -82,7 +78,7 @@ Set `privacy.resistFingerprinting` to `false`: it breaks to much stuff, and the 
 
 Set `browser.tabs.closeWindowWithLastTab` to `false`: doesn't close the browser when the last tab is closed
 
-Set `security.OCSP.require` to `false`: the OCSP server are down almost daily, and OCSP is basically pointless
+Set `security.OCSP.require` to `false`: the OCSP server is down almost daily, and OCSP is basically pointless (also, it seems to be a Google server)
 
 ---
 
