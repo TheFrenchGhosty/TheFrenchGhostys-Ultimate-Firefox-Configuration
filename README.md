@@ -86,9 +86,9 @@ Set `security.OCSP.require` to `false`: the OCSP server is down almost daily, an
 
 In the hamburger menu:
 
-Bookmarks - Show Bookmarks Toolbar
+Bookmarks - Show bookmarks toolbar
 
-Right click the "Import bookmarks" - Remove from toolbar
+In the bookmarks toolbar right click the "Import bookmarks": Remove from toolbar
 
 ---
 
@@ -115,10 +115,6 @@ Change Periodically - Every 30 minutes
 "Notification" = Red
 
 Whitelist the websites you want to stay connected to.
-
-### HTTPS Everywhere: https://addons.mozilla.org/firefox/addon/https-everywhere/
-
-"Encrypt All Sites Eligible" - ON
 
 ### Indie Wiki Buddy: https://addons.mozilla.org/firefox/addon/indie-wiki-buddy/
 
