@@ -214,34 +214,34 @@ Options: Enable Crowd Bypass
 
 ### (Optional) SingleFileZ: https://addons.mozilla.org/firefox/addon/singlefilez/ (!DON'T ALLOW IN PRIVATE WINDOW!)
 
-File name:
+- File name / template:
 
-Template: aaaSingleFileZ/{year-utc}{month-utc}/{year-utc}{month-utc}{day-utc} - {page-title}.html
+```
+0A0A0A - SingleFileZ/{year-utc}{month-utc}/{year-utc}{month-utc}{day-utc} - {url-hostname} - %if-empty<{page-title}|No title>.{filename-extension}
+```
 
-File name conflict resolution: skip duplicate file
-
-HTML Content:
+- HTML Content:
 
 Tick "Remove frames"
 
-Auto-Save
 
-auto-save waiting delay after page load (s): 10 sec
+- Zip Content: 
 
-Misc.
+Tick "insert embedded image"
 
-Tick "set maximum size for embedded resources"
 
-maximum size (MB): 50MB
+- Network
 
-Auto-settings rules:
+Tick "set maximum size"
 
-```
-file://
-moz-extension://
-```
+maximum size (MB): 50
 
-Right click SingleFileZ in the taskbar: Auto-save - Auto-save all tabs
+- Auto-Save
+
+auto-save waiting delay after page load (s): 8
+
+Right click SingleFileZ in the taskbar and click on: SingleFile Z - Auto-save - Auto-save all tabs
+
 
 ## Finish line
 
