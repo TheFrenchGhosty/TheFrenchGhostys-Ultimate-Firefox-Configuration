@@ -240,7 +240,7 @@ maximum size (MB): 50
 
 auto-save waiting delay after page load (s): 8
 
-Right click SingleFileZ in the taskbar and click on: SingleFile Z - Auto-save - Auto-save all tabs
+Right click SingleFileZ in the taskbar and click on: SingleFileZ - Auto-save - Auto-save all tabs
 
 
 ## Finish line
