@@ -225,12 +225,12 @@ template:
 file name conflict resolution: skip duplicate files
 
 
-- HTML Content:
+- HTML Content
 
 Tick "Remove frames"
 
 
-- Zip Content: 
+- Zip Content
 
 Tick "insert embedded image"
 
