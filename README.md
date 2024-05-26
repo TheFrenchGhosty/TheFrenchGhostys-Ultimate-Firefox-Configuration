@@ -214,11 +214,16 @@ Options: Enable Crowd Bypass
 
 ### (Optional) SingleFileZ: https://addons.mozilla.org/firefox/addon/singlefilez/ (!DON'T ALLOW IN PRIVATE WINDOW!)
 
-- File name / template:
+- File name
+
+template:
 
 ```
 0A0A0A-SingleFileZ/{year-utc}{month-utc}/{year-utc}{month-utc}{day-utc} - {url-hostname} - %if-empty<{page-title}|No title>.{filename-extension}
 ```
+
+file name conflict resolution: skip duplicate files
+
 
 - HTML Content:
 
@@ -235,6 +240,7 @@ Tick "insert embedded image"
 Tick "set maximum size"
 
 maximum size (MB): 50
+
 
 - Auto-Save
 
