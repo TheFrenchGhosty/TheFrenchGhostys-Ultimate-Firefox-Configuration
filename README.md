@@ -217,7 +217,7 @@ Options: Enable Crowd Bypass
 - File name / template:
 
 ```
-0A0A0A - SingleFileZ/{year-utc}{month-utc}/{year-utc}{month-utc}{day-utc} - {url-hostname} - %if-empty<{page-title}|No title>.{filename-extension}
+0A0A0A-SingleFileZ/{year-utc}{month-utc}/{year-utc}{month-utc}{day-utc} - {url-hostname} - %if-empty<{page-title}|No title>.{filename-extension}
 ```
 
 - HTML Content:
