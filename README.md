@@ -90,7 +90,7 @@ Set `privacy.resistFingerprinting` to `false`: it breaks to much stuff, and the 
 
 Set `browser.tabs.closeWindowWithLastTab` to `false`: doesn't close the browser when the last tab is closed
 
-Set `security.OCSP.require` to `false`: the OCSP server is down almost daily, and OCSP is basically pointless (also, it seems to be a Google server)
+Set `security.OCSP.require` to `false`: the OCSP server is down almost daily, and OCSP is basically pointless (also, looking at my MITM, the OCSP server seem to be a Google domain)
 
 ---
 
@@ -108,7 +108,7 @@ In the bookmarks toolbar right click the "Import bookmarks": Remove from toolbar
 
 ### CanvasBlocker: https://addons.mozilla.org/firefox/addon/canvasblocker/
 
-Convenient settings
+Settings - Preset: Choose "Convenient settings"
 
 ### Chameleon: https://addons.mozilla.org/firefox/addon/chameleon-ext/
 
@@ -138,7 +138,7 @@ Enable BreezeWiki, choose your preferred instance
 
 ### LibRedirect: https://addons.mozilla.org/firefox/addon/libredirect/
 
-Configure it how you prefer
+Configure it how you prefer (do not enable Fandom, Indie Wiki Buddy take cares of it)
 
 ### Redirect AMP to HTML: https://addons.mozilla.org/firefox/addon/amp2html/
 
@@ -154,7 +154,7 @@ Filter lists
 
 Tick the "+" next to "XX networks filters + XX cosmetic filters from:"
 
-Tick every list (except the 2 "Fanboy's" lists, that break too much stuff)
+Tick every list (you can only tick your country in the "Regions, languages" lists)
 
 "Apply changes" - "Update now"
 
@@ -214,7 +214,9 @@ Options: Enable Crowd Bypass
 
 ### Violentmonkey: https://addons.mozilla.org/firefox/addon/violentmonkey/
 
-### (Optional) SingleFileZ: https://addons.mozilla.org/firefox/addon/singlefilez/ (!DON'T ALLOW IN PRIVATE WINDOW!)
+### (Optional) SingleFileZ: https://addons.mozilla.org/firefox/addon/singlefilez/ 
+
+This addon saves every webpage you visit to a special HTML file (that is a special zip that can be opened in a browser as is), this might be considered a security issue to have those files on your machine, this is why it's optional. DON'T ALLOW IN PRIVATE WINDOW if you want to be able to have a way to open pages without saving them.
 
 - File name
 
@@ -256,3 +258,19 @@ Right click SingleFileZ in the taskbar and click on: SingleFileZ - Auto-save - A
 You now have the best possible Firefox configuration.
 
 If you think something more should be added, like an open source add-ons, feel free to open an issue.
+
+---
+
+## Solution for the (rare) websites that don't work
+
+Some (rare) websites wont work with a setup this strong.
+
+For those rare websites the solution is to use an alternative browsers (or to not use those websites).
+
+Some websites don't support Firefox-based browser at all, so to hit 2 birds with one stone, let's use [Ungoogled Chromium](https://github.com/ungoogled-software/ungoogled-chromium#downloads).
+
+### Ungoogled Chromium setup:
+
+- Enable extensions following the guide they provide (when you first open the browser)
+- Install [uBlock Origin](https://chromewebstore.google.com/detail/cjpalhdlnbpafiamejdnhcphjbkeiagm) and [I still don't care about cookies](https://chromewebstore.google.com/detail/edibdbjcniadpccecjdfdjjppcpchdlm)
+- Remember to clear your browsing data often (using `chrome://settings/clearBrowserData` (advanced tab - Time range: all time)), since Chromium-based browser don't have a feature to automatically clear them unlike Firefox-based browser (because obviously Google doesn't want their users to do that)
