@@ -6,11 +6,13 @@
 
 - The best Firefox configuration that break as little websites as possible
 - No ads, no cookies messages not even the "forced" one
+- Near perfect fingerprint resistance (including resistance to [fingerprint.com](https://fingerprint.com/demo/) the "strongest" fingerprinting tool), your fingerprint changes at almost every browser restart
 - Tons of new features thanks to amazing add-ons
 - Only Free and Open Source add-ons, absolutely nothing proprietary is required
 - 100% Free of spyware
 - No Contributor License Agreement
 - No Code of Conduct
+
 
 ---
 
