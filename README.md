@@ -214,19 +214,29 @@ Options: Enable Crowd Bypass
 
 ### Violentmonkey: https://addons.mozilla.org/firefox/addon/violentmonkey/
 
-### (Optional) SingleFileZ: https://addons.mozilla.org/firefox/addon/singlefilez/ 
+### (Optional) SingleFile: https://addons.mozilla.org/firefox/addon/single-file
 
 This addon saves every webpage you visit to a special HTML file (that is a special zip that can be opened in a browser as is), this might be considered a security issue to have those files on your machine, this is why it's optional. DON'T ALLOW IN PRIVATE WINDOW if you want to be able to have a way to open pages without saving them.
 
-- File name
-
-template:
+- File name / template:
 
 ```
 0A0A0A-SingleFileZ/{year-utc}{month-utc}/{year-utc}{month-utc}{day-utc} - {url-hostname} - %if-empty<{page-title}|No title>.{filename-extension}
 ```
 
-file name conflict resolution: skip duplicate files
+- File name / file name conflict resolution:
+
+Select "skip duplicate files"
+
+
+- File format / format:
+
+Select "self-extracting ZIP (universal)"
+
+
+- File format / embed image:
+
+Tick "page screenshot"
 
 
 - HTML Content
@@ -234,23 +244,17 @@ file name conflict resolution: skip duplicate files
 Tick "Remove frames"
 
 
-- Zip Content
+- Network / set maximum size:
 
-Tick "insert embedded image"
-
-
-- Network
-
-Tick "set maximum size"
-
-maximum size (MB): 50
+Set "maximum size (MB)" to "50"
 
 
-- Auto-Save
+- Auto-Save / auto-save waiting delay after page load (s):
 
-auto-save waiting delay after page load (s): 8
+Set to "8"
 
-Right click SingleFileZ in the taskbar and click on: SingleFileZ - Auto-save - Auto-save all tabs
+
+Right click SingleFile in the taskbar and click on: SingleFile - Auto-save - Auto-save all tabs
 
 
 ## Finish line
