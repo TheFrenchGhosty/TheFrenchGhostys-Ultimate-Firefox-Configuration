@@ -256,8 +256,6 @@ In the opt-in menu for more features, set everything to yes
 
 ### Get RSS Feed URL: https://addons.mozilla.org/firefox/addon/get-rss-feed-url/
 
-### GitHub Gloc: https://addons.mozilla.org/firefox/addon/gloc/
-
 ### SponsorBlock: https://addons.mozilla.org/firefox/addon/sponsorblock/
 
 Miscellaneous: Support 3rd Party YouTube-Sites
