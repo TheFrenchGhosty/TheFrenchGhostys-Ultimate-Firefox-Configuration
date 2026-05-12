@@ -56,6 +56,9 @@ I rarely have to change things and when I do, the change will be added to this g
 
 ## Setup
 
+The fact that Mozilla STILL hasn't done profile backup/restore is crazy, but it's Mozilla, so you shouldn't expect much good from them.
+
+
 ---
 
 ## about:preferences
@@ -68,7 +71,7 @@ Tick: "Block AI enhancements" and confirm
 
 #### about:preferences#general
 
-Under "Browser Layout" untick Show sidebar" - This is literally pointless
+Under "Browser Layout" untick Show sidebar" - It provides nothing, this is just Mozilla copying Vivaldi's UI (and more is coming - and this isn't a joke [on desktop](https://www.neowin.net/news/mozilla-is-working-on-a-big-firefox-redesign-here-is-what-it-looks-like/) they just copy [Vivaldi](https://vivaldi.com/wp-content/themes/vivaldicom-theme/img/desktop/vivaldi_78_hero_light.webp) and on Android they just copy Safari iOS) because their own designers are incompetent.
 
 Under "Digital Rights Management (DRM) Content" untick "Play DRM-controlled content"
 
@@ -148,7 +151,7 @@ Set `security.OCSP.require` to `false`: the OCSP server is down almost daily, an
 
 In the toolbar/navbar (the thing at the top containing your tabs and everything):
 
-- Right click on the "Show sidebars" button (the thing on the left) and click "Remove from Toolbar" - It provides nothing, this is just Mozilla copying Vivaldi's UI (and more is coming) because their own designers are incompetent
+- Right click on the "Show sidebars" button (the thing on the left) and click "Remove from Toolbar" - It provides nothing, this is just Mozilla copying Vivaldi's UI (and more is coming - and this isn't a joke [on desktop](https://www.neowin.net/news/mozilla-is-working-on-a-big-firefox-redesign-here-is-what-it-looks-like/) they just copy [Vivaldi](https://vivaldi.com/wp-content/themes/vivaldicom-theme/img/desktop/vivaldi_78_hero_light.webp) and on Android they just copy Safari iOS) because their own designers are incompetent.
 
 - Right click on the "Account" button (the thing on the right) and click "Remove from Toolbar"
 
