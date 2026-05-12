@@ -48,6 +48,10 @@ I rarely have to change things and when I do, the change will be added to this g
 
 - [LibreWolf](https://librewolf.net/)
 
+*OR* 
+
+- Firefox itself (not recommended)
+
 ---
 
 ## Setup
@@ -56,11 +60,31 @@ I rarely have to change things and when I do, the change will be added to this g
 
 ## about:preferences
 
+#### about:preferences#ai
+
+We start with the AI preferences because disabling them removes some option from the other preferences panels.
+
+Tick: "Block AI enhancements" and confirm
+
+#### about:preferences#general
+
+Under "Browser Layout" untick Show sidebar" - This is literally pointless
+
+Under "Digital Rights Management (DRM) Content" untick "Play DRM-controlled content"
+
+Under "Browsing":
+
+Untick "Recommend extensions as you browse"
+
+Untick "Recommend features as you browse"
+
 #### about:preferences#home
 
 Under "New Windows and Tabs" / "Homepage and new windows" - "Custom URLs..."
 
 Set the [SearXNG](https://searx.space/) instance you want to use.
+
+Under "Firefox Home Content" untick everything, especially "Support Firefox"
 
 #### about:preferences#search
 
@@ -72,15 +96,43 @@ Go back to `about:preferences#search`
 
 Under "Search Suggestions": Tick all options
 
+Under "Address Bar": 
+
+Untick "Suggest search engines to use"
+
+Untick "Quick actions"
+
 Under "Search Shortcuts": Remove everything except the SearX instance you added (and the stuff you can't remove)
 
 #### about:preferences#privacy
 
 Under "Cookies and Site Data" untick "Delete cookies and site data when LibreWolf is closed"
 
+Under "Passwords":
+
+Untick "Ask to save passwords" (use a proper password manager - not the stupid browser integrated one that is super easy to access by malware)
+
+Untick "Show alerts about passwords for breached websites"
+
+Under "Payment methods": Untick "Save and autofill payment info"
+
+Under "Addresses and more": Untick "Save and autofill addresses"
+
 Under "History"
 
-"Clear history when Firefox closes" - Tick everything except "Cookies" "Active Logins" "Site Settings" "Offline website data"
+Set the drop down menu to "Customize history"
+
+"Clear history when Firefox closes" - Tick everything except "Cookies and site data" "Site Settings"
+
+Under "Permission"
+
+Open "Location" and tick "Block new requests asking to access your location"
+
+Under "Firefox Data Collection and Use": Untick everything - Even if you tell the browser not to collect anything when you first open it, it will still collect data. Mozilla at its finest - and they wonder why people hate them.
+
+Under "Security"/ "Deceptive content and dangerous software protection" untick "Block dangerous and deceptive content" - This is using a database of website maintained by Google and is heavily prone to censorship, see https://librewolf.net/docs/faq/#why-do-you-disable-google-safe-browsing for more information
+
+Under "DNS over HTTPS" / "Enable DNS over HTTPS using:": Tick "Off" - Set a proper DNS on the OS.
 
 ---
 
@@ -91,6 +143,17 @@ Set `privacy.resistFingerprinting` to `false`: it breaks to much stuff, and the 
 Set `browser.tabs.closeWindowWithLastTab` to `false`: doesn't close the browser when the last tab is closed
 
 Set `security.OCSP.require` to `false`: the OCSP server is down almost daily, and OCSP is basically pointless (also, looking at my MITM, the OCSP server seem to be a Google domain)
+
+## Firefox toolbar
+
+In the toolbar/navbar (the thing at the top containing your tabs and everything):
+
+- Right click on the "Show sidebars" button (the thing on the left) and click "Remove from Toolbar" - It provides nothing, this is just Mozilla copying Vivaldi's UI (and more is coming) because their own designers are incompetent
+
+- Right click on the "Account" button (the thing on the right) and click "Remove from Toolbar"
+
+- Right click on the "View recent browsing across windows and devices" button (the thing at the top on the left of the tabs) and click "Remove from Toolbar"
+
 
 ---
 
@@ -110,7 +173,7 @@ In the bookmarks toolbar right click the "Import bookmarks": Remove from toolbar
 
 Settings - Preset: Choose "Convenient settings"
 
-### Chameleon: https://addons.mozilla.org/firefox/addon/chameleon-ext/
+### Chameleon: https://addons.mozilla.org/firefox/addon/chameleon-ext/ (optional but recommended)
 
 Home: Dark
 
