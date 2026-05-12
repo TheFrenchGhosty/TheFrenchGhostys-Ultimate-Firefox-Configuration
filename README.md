@@ -246,6 +246,8 @@ All css/image/frame without any filter - scripts disabled
 
 ### Bypass Paywalls Clean: https://gitflic.ru/project/magnolia1234/bypass-paywalls-firefox-clean#installation (https://en.wikipedia.org/wiki/Bypass_Paywalls_Clean)
 
+In the opt-in menu for more features, set everything to yes
+
 ### Cookie Quick Manager: https://addons.mozilla.org/firefox/addon/cookie-quick-manager/
 
 ### cookies.txt: https://addons.mozilla.org/firefox/addon/cookies-txt/
